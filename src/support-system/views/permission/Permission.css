@@ -1,0 +1,35 @@
+.bar {
+  margin-bottom: 10px;
+}
+
+.addButton {
+  margin-left: 10px;
+  position: relative;
+}
+
+.required {
+  color: red;
+}
+
+.pkCell,
+.pkCellView {
+  max-width: 150px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.pkCellView:hover {
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container :global(.ant-table-body) {
+  overflow-x: auto !important;
+}

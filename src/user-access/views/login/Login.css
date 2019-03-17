@@ -1,0 +1,64 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.head {
+	width: 220px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	width: 60px;
+}
+
+.body {
+	width: 220px;
+	height: 220px;
+}
+
+.input1 {
+	margin-top: 10px;
+}
+
+.input2 {
+	margin-top: 10px;
+}
+
+.button {
+	margin-top: 10px;
+}
+
+.line1 {
+	margin-top: 10px;
+}
+
+.keepLoginSpan {
+	color: #50C4F7;
+}
+
+.keepLoginSpan:hover {
+	cursor: pointer;
+}
+
+.line2 {
+	margin-top: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.itemSpan,
+.itemSeparator {
+	display: inline-block;
+	color: #50C4F7;
+	margin: 0 3px;
+}
+
+.itemSpan:hover {
+	cursor: pointer;
+}
